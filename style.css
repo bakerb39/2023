@@ -1,0 +1,64 @@
+.grid {
+	width: 900px;
+	height: 900px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 60px;
+	height: 60px;
+}
+
+
+
+.invader {
+    background-image: url('2023.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.shooter {
+    background-image: url('clock.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 75%
+}
+
+.laser {
+    background-image: url('laser.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boom {
+    background-image: url('explosion.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: yellow;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* this sets the height of the container to the full viewport height */
+}
+
+#winningImage {
+  display: block;
+  width: auto; /* maintain the aspect ratio */
+  height: auto; /* maintain the aspect ratio */
+  transform: scale(3); /* scale the image to four times its original size */
+  margin: auto; /* this will center the image horizontally if it's a block element */
+}
+
